@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Ejercicios Javascript</title>
+    
+</head>
+<body>
+
+       <script>
+               let edad = 40;
+               
+               if(edad >= 18){
+                console.log("Es mayor de edad porque tiene: " + edad + " años!");
+               }else{
+                console.log("Es menor de edad porque tiene: " + edad + " años!");
+               }
+
+
+
+       </script>
+
+       <script>
+           let nota=85;
+            
+           if(nota >= 90){
+           console.log("Calificación: A");
+           } else if (nota >= 80) {
+           console.log("Calificación: B");
+           } else if (nota >= 70) {
+           console.log("Calificación: C");
+           } else if (nota >= 60) {
+            console.log("Calificación: D");
+           }else{
+             console.log("Calificación F")
+             }
+</script>
+          <script>
+            // Declara dos variables booleanas
+            let tieneLicencia = true;
+            let usaCinturon = false;
+            // Usa condiciones anidadas para verificar ambas condiciones
+            if (tieneLicencia) {
+            if (usaCinturon) {
+            console.log("Puedes conducir.");
+            }else {
+            console.log("No puedes conducir sin cinturón.");
+            }
+            }else {
+            console.log("No puedes conducir sin licencia.");
+}
+</script>
+<script>
+    // Declara una variable numérica
+
+let temperatura = 30;
+// Usa un operador ternario para determinar el estado del clima
+let clima = (temperatura > 25) ? "Caluroso" : "Fresco";
+// Imprime el resultado en la consola
+console.log("El clima está", clima);
+</script>
+<script> // Declara una variable de tipo cadena
+    let dia = "lunes";
+    // Usa una estructura switch para determinar el mensaje
+    switch (dia) {
+    case "lunes":
+    console.log("Inicio de la semana.");
+    break;
+    case "viernes":
+    console.log("Fin de la semana laboral.");
+    break;
+    case "sábado":
+    case "domingo":
+    console.log("Fin de semana.");
+    break;
+    default:
+    console.log("Día no reconocido.");
+    }</script>
+
+</body>
+</html>
